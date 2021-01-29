@@ -1,8 +1,6 @@
 /* =================================================================== 
  *
- *  Wordsmith v1.0 Base Stylesheet
- *  07-05-2018
- *  ------------------------------------------------------------------
+
  *
  *  TOC:
  *  # imports 
@@ -41,7 +39,7 @@
  *
  * ------------------------------------------------------------------- */
 html {
-    font-family: sans-serif;
+    font-family: 'Ubuntu';
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -75,7 +73,7 @@ hr {
 }
 
 pre {
-    font-family: monospace, monospace;
+    font-family: 'Ubuntu';
     font-size: 1em;
 }
 
@@ -103,7 +101,7 @@ b, strong {
 }
 
 code, kbd, samp {
-    font-family: monospace, monospace;
+    font-family: 'Ubuntu';
     font-size: 1em;
 }
 
@@ -153,7 +151,7 @@ svg:not(:root) {
 }
 
 button, input, optgroup, select, textarea {
-    font-family: sans-serif;
+    font-family: 'Ubuntu';
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
@@ -892,3 +890,14 @@ textarea {
 }
 
 /*# sourceMappingURL=base.css.map */
+
+
+/*Sas style*/
+.texto_destaque{
+    color: #78CC6D;
+}
+
+.texto_justificado {
+    text-align: justify;
+    text-justify: inter-word;
+}
