@@ -1,0 +1,22 @@
+<!-- WEBSITE EM PORTUGUES -->
+<html class="js flexbox canvas canvastext webgl touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths gr__demo_highhay_com" style="" data-lt-installed="true" lang="pt">
+    <head>   
+        <!--Basic-->        
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <title>Sastelvio Serafim Manuel | Blog</title>
+    </head>
+    <body>
+        <script>
+            //INICIO VARIAVEIS GERAIS
+            //detect language of the user
+            //var userLang = navigator.language || navigator.userLanguage;
+            localStorage.setItem('userLang', navigator.language || navigator.userLanguage);
+            if (localStorage.getItem('userLang') == 'pt-PT' || localStorage.getItem('userLang') == 'pt-BR') {
+                window.location.replace("pt/");
+            } else {
+                window.location.replace("en/");
+            }
+        </script>
+    </body>
+</html>
