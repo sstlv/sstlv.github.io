@@ -101,7 +101,7 @@ b, strong {
 }
 
 code, kbd, samp {
-    font-family: 'Ubuntu';
+    font-family: 'Monospaced';
     font-size: 1em;
 }
 
@@ -900,4 +900,8 @@ textarea {
 .texto_justificado {
     text-align: justify;
     text-justify: inter-word;
+}
+
+.texto_boldado{
+    font-weight: 600;
 }
